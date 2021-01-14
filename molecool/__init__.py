@@ -6,6 +6,8 @@ A Python package for analyzing and visualizing xyz files. For MolSSI Workshop Py
 # Add imports here
 from .measure import calculate_distance, calculate_angle
 from .molecule import build_bond_list
+from .molecule import calculate_molecular_mass
+from .molecule import calculate_center_of_mass
 from .visualize import draw_molecule, bond_histogram
 from . import io
 

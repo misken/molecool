@@ -6,7 +6,9 @@ Unit and regression test for the measure module.
 import molecool
 import numpy as np
 import math
+import pytest
 
+@pytest.mark.skip
 def test_calculate_distance():
     """Test that calculate_distance function calculates what we expect."""
     
